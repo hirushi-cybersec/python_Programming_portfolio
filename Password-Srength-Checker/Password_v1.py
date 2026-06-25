@@ -1,9 +1,18 @@
 
-password=input("Enter your password: ")
-print("your password: ",password) 
-common_passwords=(1234,123456,"password","user")
+common_password=("password","1234","user","000000","4321")
+password=input("Enter a password")
+if password.lower() in common_password:
+    print("Password is very weak")
+    print("Reason: This is very common_password")
+else:
+    score==0
 
-if any(c.isupper() for c in password)==False:
-    print("create a password including capital letter for more secure")
-elif any(c.islower() for c in password)==False:
-    print("create a password including simple letter for more secure")
+    if len(password)>=8:
+        score+=1
+    else:
+        print("create a password at least with 8 characters")
+    if any(c.isupper() in password:
+        score+=1
+    else:
+        printf("Add uppercase letter (A-Z)")
+    
