@@ -32,11 +32,12 @@ Checks password strength based on:
 - Use of uppercase, lowercase, numbers, symbols
 - Common patterns
 
-*What it does:* Returns Weak / Medium / Strong with suggestions for improvement.  
+*What it does:* Returns Weak / Medium / Strong with suggestions for improvement.
+*Location:* [Open v1 code](./Password-Strength-Checker/v1)
 <p align="center">
   <img src="passwd.v1.png" alt="Password Checker Output" width="600"/>
 </p
-*Location:* [Open v1 code](./Password-Strength-Checker/v1)
+
 <br>
 <br>
 <br>
