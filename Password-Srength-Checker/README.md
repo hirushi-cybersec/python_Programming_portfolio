@@ -45,7 +45,7 @@ Python 3 | ANSI Escape Codes | CLI
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/password-checker.git
+git clone https://github.com/hirushi-cybersec/password-checker.git
 cd password-checker
 ```
 ### 2. Run the script
