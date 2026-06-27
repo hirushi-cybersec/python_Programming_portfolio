@@ -40,14 +40,12 @@ Checks password strength based on:
 
 ---
 
-### <span style="color:#2196F3">📝 v2 - Pwned Check Added </span>
+### <span style="color:#2196F3">📝 v2 - Pwned Check Added - comming soon</span>
 
 <br>
 <br>
 <br>
 
----
 
-### <span style="color:#4CAF50">📝 v3 - comming soon</span>
 
----
+
