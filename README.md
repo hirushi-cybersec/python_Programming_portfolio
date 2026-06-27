@@ -33,7 +33,7 @@ Checks password strength based on:
 - Common patterns
 
 *What it does:* Returns Weak / Medium / Strong with suggestions for improvement.  
-*Location:* [Open Password Checker](./Password-Strength-Checker)
+*Location:* [Open v1 code](./Password-Strength-Checker/password_v1.py)
 <br>
 <br>
 <br>
@@ -48,7 +48,7 @@ Upgraded version with *Have I Been Pwned API* integration.
 - Checks if your password has appeared in known data breaches
 - Warns you if it’s been leaked before, so you don’t reuse it
 
-*Location:* [Open v2 Folder](./password-strength-checker/v2)
+*Location:* pending...
 <br>
 <br>
 <br>
