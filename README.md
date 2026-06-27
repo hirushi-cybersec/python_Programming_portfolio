@@ -40,15 +40,8 @@ Checks password strength based on:
 
 ---
 
-### <span style="color:#2196F3">📝 v2 - Pwned Check Added</span>
-Upgraded version with *Have I Been Pwned API* integration.
+### <span style="color:#2196F3">📝 v2 - Pwned Check Added </span>
 
-*What it does:* 
-- Everything in v1
-- Checks if your password has appeared in known data breaches
-- Warns you if it’s been leaked before, so you don’t reuse it
-
-*Location:* pending...
 <br>
 <br>
 <br>
