@@ -33,7 +33,7 @@ Checks password strength based on:
 - Common patterns
 
 *What it does:* Returns Weak / Medium / Strong with suggestions for improvement.  
-*Location:* [Open v1 code](./Password-Strength-Checker/password_v1.py)
+*Location:* [Open v1 code](./Password-Strength-Checker/v1)
 <br>
 <br>
 <br>
