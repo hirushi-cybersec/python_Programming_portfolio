@@ -1,8 +1,12 @@
-
+RED = '\033[91m'
+GREEN = '\033[92m'
+YELLOW = '\033[93m'
+RESET = '\033[0m'
 common_password=("password","1234","user","000000","4321")
-password=input("Enter a password: ")c
+
+password=input("Enter a password: ")
 if password.lower() in common_password:
-    print("Your Password is very weak")
+    print(f"{RED}Your Password is very weak{RESET}")
     print("Reason: This is very common_password")
 else:
     score=0
@@ -20,25 +24,26 @@ else:
     if any(c.islower() for c in password):
         score+=1
     else:
-        Missing_Feedback.append("Add lowercase letter (a-z)\nc")
+        Missing_Feedback.append("Add lowercase letter (a-z)\n")
     if any(c in "!@#$%^&*" for c in password):
         score+=1
     else:
         Missing_Feedback.append("Add symbol like !@#$%^&*")
     
     if score==4:
-        print("Security status: Stong\n")
+        print(f"{GREEN}Security status: Strong\n {RESET}")
     elif score==3:
-        print("Security status: Medium\n")
+        print(f"{YELLOW}Security status: Medium\n {RESET}")
     elif score==2:
-        print("Security status: Weak\n")
+        print(f"{RED}Security status: Weak\n {RESET}")
     else:
-        print("Security status: Very Weak\n")
+        print(f"{RED}Security status: Very Weak\n {RESET}")
 
     if Missing_Feedback:
-        print("Suggestions to make it stronger: ")
+        print(f"{YELLOW}Suggestions to make it stronger: {RESET}")
         for task in Missing_Feedback:
             print(" ", task)
     else:
         print("No Missing_Feedback. Your password is already okay.")
+print("-----------------------------------------------------------------------")
         
