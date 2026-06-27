@@ -33,7 +33,7 @@ Checks password strength based on:
 - Common patterns
 
 *What it does:* Returns Weak / Medium / Strong with suggestions for improvement.  
-*Location:* [Open v1 Folder](./password-strength-checker/v1)
+*Location:* [Open Password Checker](./Password-Strength-Checker)
 <br>
 <br>
 <br>
