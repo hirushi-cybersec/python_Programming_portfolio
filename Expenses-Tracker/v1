@@ -1,3 +1,4 @@
+from datetime import date
 Item_name=input("enter the item name: ")
 while True:
     try:
@@ -13,7 +14,9 @@ while True:
     else:
          print("only use food,travel,education,other for categories")
 
+today=date.today()
+
 with open("expenses.txt", "a") as f:
-    f.write(f"{Item_name},{Amount},{Category}\n")
+    f.write(f"{today}    {Item_name}    {Amount}    {Category}\n")
     print("saved")
    
