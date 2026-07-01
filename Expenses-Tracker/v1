@@ -1,11 +1,19 @@
 Item_name=input("enter the item name: ")
-Amount=float(input("enter the Amount: "))
-Category=input("enter the category: ")
-print(Item_name, Amount, Category)
+while True:
+    try:
+         Amount=float(input("enter the Amount: "))
+         break
+    except ValueError:
+        print("Error: Add numbers only")
+       
+while True:
+    Category=input("enter the category: ")
+    if Category in ["food","travel","education","other"]:
+         break
+    else:
+         print("only use food,travel,education,other for categories")
 
 with open("expenses.txt", "a") as f:
     f.write(f"{Item_name},{Amount},{Category}\n")
     print("saved")
    
-
-        
