@@ -1,1 +1,4 @@
-
+Item_name=input("enter the item name: ")
+Amount=float(input("enter the Amount: "))
+Category=input("enter the category: ")
+print(Item_name, Amount, Category)
